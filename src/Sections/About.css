@@ -1,0 +1,23 @@
+.about h1{
+
+    font-size: 3vw;
+    text-align: center;
+    color: aliceblue;
+    font-weight: 500;
+}
+
+.about p {
+
+    line-height: 1.8;
+    word-spacing: 0.2vw;
+    padding-inline: 6vw;
+    text-align: center;
+    font-size: min(20px,2vw);
+    color: rgba(255, 255, 255, 0.76);
+
+}
+
+.about span{
+    font-weight: bolder;
+    color: white;
+}
