@@ -2,6 +2,7 @@ import React from 'react'
 import {motion} from 'framer-motion';
 import {navVariants} from '../utils/motion'
 import styles from '../styles'
+import './NavBar.css';
 
 export default function NavBar() {
   return (
@@ -31,12 +32,15 @@ export default function NavBar() {
           alignItems: 'center',
         }}
         >
-        <img width={150} src='acumen_it_logo.png'/>
+        <img className='logo' src='acumen_it_logo.png'/>
         {/* <img width={150} src='acumen_text.png'/> */}
         </div>
-        <img src='/menu.svg'
-        alt='menu'
-        className='w-[24px] h-[24px] object-contain'/>
+        <div className="navbar">
+  <a href="#about-us">About Us</a>
+  <a href="#events">Events</a>
+  <a href="#team-page">Team Page</a>
+</div>
+
       </div>
     </motion.nav>
   )

@@ -1,6 +1,59 @@
+/* 
+
+.TeamFaculty{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 6%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 120px;
+    margin-top: 6%;
+}
+
+.TeamFaculty .people-outer-card{
+    max-width: 50%;
+}
+
+.TeamNormal{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 120px;
+    margin-top: 6%;
+}
+
+
+@media only screen and (max-width: 900px) {
+    
+    .TeamFaculty{
+        gap: 30px;
+    }
+
+    .TeamNormal{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    
+    }
+    
+}
+
+@media only screen and (max-width: 740px) {
+ 
+    .TeamNormal{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    
+    }
+    
+} */
+
 #TeamHeading{
 
-    font-size: 3vw;
+    font-size: max(26px,3vw);
     text-align: center;
     color: aliceblue;
     font-weight: 500;
@@ -30,35 +83,24 @@
 }
 
 
-.TeamFaculty{
+@media only screen and (min-width: 1300px) {
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 60px;
-    margin-top: 6%;
+    .TeamFaculty{
+        padding-inline: 14vw;
+    }
+    
 }
 
-.TeamFaculty .people-outer-card{
-    max-width: 50%;
+.TeamFaculty{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 6vw;
+    margin-top: 6%;
 }
 
 .TeamNormal{
-
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-    gap: 120px;
+    gap: 6vw;
     margin-top: 6%;
-}
-
-
-@media only screen and (max-width: 740px) {
- 
-    .TeamNormal{
-    grid-template-columns: repeat(1, 1fr);
-    gap: 30px;
-    
-    }
-    
 }

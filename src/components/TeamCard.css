@@ -1,64 +1,51 @@
-
-.people-card{
+.people-card {
     display: flex;
     flex-direction: column;
     position: relative;
-    /* align-items: center; */
-    /* justify-content: center; */
-}
-
-.people-card-body{
-
+    background-color: rgba(0, 0, 0, 0.164); /* Adjusted background color for better visibility */
+    padding: 20px; /* Increased padding for better spacing */
+    border-radius: 12px; /* Increased border radius for a softer look */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Adjusted box shadow for depth */
+    transition: transform 0.3s ease; /* Added transition for hover effect */
+  }
+  
+  .people-card:hover {
+    transform: translateY(-5px); /* Added hover effect to lift the card slightly */
+  }
+  
+  .people-card-body {
     display: flex;
     flex-direction: column;
     align-items: start;
-    justify-content: flex-end;
-    padding-top: 10px;
-    /* position: absolute; */
-    /* bottom: 0; */
-    /* left: 0; */
-    /* right: 0; */
-    /* top: 0; */
-    /* height: 100%; */
-    /* width: 100%; */
-    /* background-image: linear-gradient(to left, blue, red); */
-}
-
-
-.TeamFaculty .people-card-body h1{
-
-    font-size: min(22px, 5vw);
-}
-
-
-.TeamFaculty .people-card-body p{
-
-    font-size: min(16px, 4.2vw);
-
-}
-
-.people-card-body h1{
-
-    color: white;
-    font-size: min(20px, 2.4vw);
+    padding-top: 20px; /* Increased padding for better spacing */
+  }
+  
+  .people-card-body h1 {
+    color: #fff; /* Adjusted heading color */
+    font-size: 24px; /* Increased heading font size */
     margin: 0;
     padding: 0;
-
-}
-
-.people-card-body p{
-    margin: 0;
-    padding: 0;
-    font-size: min(16px, 2vw);
-}
-
-.people-card-body{
-    color: aliceblue;
-}
-
-
-.social{
-    margin-top: 8px;
+    font-weight: bold; /* Added font weight for emphasis */
+  }
+  
+  .people-card-body p {
+    color: #ccc; /* Adjusted paragraph color */
+    font-size: 18px; /* Increased paragraph font size */
+    margin: 5px 0; /* Adjusted margin for better spacing */
+  }
+  
+  .social {
+    margin-top: 16px; /* Increased margin for better spacing */
     display: flex;
-    gap: 10px;
-}
+    gap: 12px; /* Adjusted gap between social icons */
+  }
+  
+  .social a {
+    color: #fff; /* Adjusted social icon color */
+    font-size: 24px; /* Increased social icon font size */
+  }
+  
+  .social a:hover {
+    color: #007bff; /* Changed color on hover for better engagement */
+  }
+  

@@ -5,7 +5,7 @@ import {motion} from 'framer-motion';
 
 import { staggerContainer } from "../utils/motion";
 import styles from "../styles";
-import { EventDetails } from '../constants';
+import { TeamDetails } from '../constants';
 import TeamCard from '../components/TeamCard';
 import './TeamPage.css';
 
@@ -16,7 +16,7 @@ function TeamPage() {
   
     return(
     <section
-    className={`${styles.paddings}`} id="explore">
+    className={`${styles.paddings}`} id="team-page">
       <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -33,7 +33,7 @@ function TeamPage() {
         className="resp TeamFaculty"
   
         >
-        {EventDetails.map((world, index)=>{
+        {TeamDetails.map((world, index)=>{
           
           if(world.role === "Faculty")
           {
@@ -51,7 +51,7 @@ function TeamPage() {
         className="resp TeamNormal"
   
         >
-        {EventDetails.map((world, index)=>{
+        {TeamDetails.map((world, index)=>{
   
           if(world.role !== "Faculty")
           {

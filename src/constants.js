@@ -1,130 +1,213 @@
 export const EventDetails = [
   {
-    id: 'world-1',
+    id: '1',
     imgUrl: '1.png',
-    title: 'The Hogwarts',
+    title: 'Webathon',
+    link:'',
+    desc:'get ready showcase your web skills',
+    venue : 'JC Bose',
     role:"Faculty"
   },
   {
-    id: 'world-2',
+    id: '2',
     imgUrl: '2.png',
-    title: 'The Upside Down',
+    title: 'Webathon',
+    link:'',
+    desc:'get ready showcase your web skills',
+    venue : 'JC Bose',
+    role:"Faculty"
+  },
+  {
+    id: '3',
+    imgUrl: '3.png',
+    title: 'Webathon',
+    link:'',
+    desc:'get ready showcase your web skills',
+    venue : 'JC Bose',
+    role:"Faculty"
+  },
+  {
+    id: '4',
+    imgUrl: '4.png',
+    title: 'Webathon',
+    link:'',
+    desc:'get ready showcase your web skills',
+    venue : 'JC Bose',
+    role:"Faculty"
+  },
+  {
+    id: '5',
+    imgUrl: '5.png',
+    title: 'Webathon',
+    link:'',
+    desc:'get ready showcase your web skills',
+    venue : 'JC Bose',
+    role:"Faculty"
+  },
+  {
+    id: '6',
+    imgUrl: '6.png',
+    title: 'Webathon',
+    link:'',
+    desc:'get ready showcase your web skills',
+    venue : 'JC Bose',
+    role:"Faculty"
+  },
+  {
+    id: '7',
+    imgUrl: '7.png',
+    title: 'Webathon',
+    link:'',
+    desc:'get ready showcase your web skills',
+    venue : 'JC Bose',
+    role:"Faculty"
+  },
+  {
+    id: '8',
+    imgUrl: '8.png',
+    title: 'Webathon',
+    link:'',
+    desc:'get ready showcase your web skills',
+    venue : 'JC Bose',
+    role:"Faculty"
+  },
+  {
+    id: '9',
+    imgUrl: '9.png',
+    title: 'Webathon',
+    link:'',
+    desc:'get ready showcase your web skills',
+    venue : 'JC Bose',
+    role:"Faculty"
+  },
+  {
+    id: '10',
+    imgUrl: '10.png',
+    title: 'Webathon',
+    link:'',
+    desc:'get ready showcase your web skills',
+    venue : 'JC Bose',
+    role:"Faculty"
+  },
+  {
+    id: '11',
+    imgUrl: '11.png',
+    title: 'Webathon',
+    link:'',
+    desc:'get ready showcase your web skills',
+    venue : 'JC Bose',
+    role:"Faculty"
+  },
+  {
+    id: '12',
+    imgUrl: '12.png',
+    title: 'Webathon',
+    link:'',
+    desc:'get ready showcase your web skills',
+    venue : 'JC Bose',
+    role:"Faculty"
+  },
+  {
+    id: '13',
+    imgUrl: '13.png',
+    title: 'Webathon',
+    link:'',
+    desc:'get ready showcase your web skills',
+    venue : 'JC Bose',
+    role:"Faculty"
+  },
+];
+
+export const TeamDetails = [
+  {
+    id: '1',
+    imgUrl: 'prof.png',
+    name:"Ram Mohan Rao",
+    designation:"HOD",
     role:"Faculty",
   },
   {
-    id: 'world-3',
-    imgUrl: '3.png',
-    title: 'Kadirojo Permai',
+  id: '2',
+  imgUrl: 'prof.png',
+  name:"David Raju",
+  designation:"Co Ordinator",
+  role:"Faculty",
   },
   {
-    id: 'world-4',
-    imgUrl: '4.png',
-    title: 'Paradise Island',
+    id: '3',
+    imgUrl: 'prof.png',
+    name:"Ajay",
+    designation:"Technical Co Ordinator",
+    role:"Student",
+    },
+  {
+    id: '3',
+    imgUrl: 'prof.png',
+    name:"Ajay",
+    designation:"Technical Co Ordinator",
+    role:"Student",
   },
   {
-    id: 'world-5',
-    imgUrl: '5.png',
-    title: 'Hawkins Labs',
+    id: '3',
+    imgUrl: 'prof.png',
+    name:"Ajay",
+    designation:"Technical Co Ordinator",
+    role:"Student",
   },
   {
-    id: 'world-6',
-    imgUrl: '6.png',
-    title: 'Hawkins Labs',
+    id: '3',
+    imgUrl: 'prof.png',
+    name:"Ajay",
+    designation:"Technical Co Ordinator",
+    role:"Student",
   },
   {
-    id: 'world-7',
-    imgUrl: '7.png',
-    title: 'Hawkins Labs',
+    id: '3',
+    imgUrl: 'prof.png',
+    name:"Ajay",
+    designation:"Technical Co Ordinator",
+    role:"Student",
   },
   {
-    id: 'world-8',
-    imgUrl: '8.png',
-    title: 'Hawkins Labs',
+    id: '3',
+    imgUrl: 'prof.png',
+    name:"Ajay",
+    designation:"Technical Co Ordinator",
+    role:"Student",
   },
   {
-    id: 'world-9',
-    imgUrl: '9.png',
-    title: 'Hawkins Labs',
+    id: '3',
+    imgUrl: 'prof.png',
+    name:"Ajay",
+    designation:"Technical Co Ordinator",
+    role:"Student",
   },
   {
-    id: 'world-10',
-    imgUrl: '10.png',
-    title: 'Hawkins Labs',
+    id: '3',
+    imgUrl: 'prof.png',
+    name:"Ajay",
+    designation:"Technical Co Ordinator",
+    role:"Student",
   },
   {
-    id: 'world-11',
-    imgUrl: '11.png',
-    title: 'Hawkins Labs',
+    id: '3',
+    imgUrl: 'prof.png',
+    name:"Ajay",
+    designation:"Technical Co Ordinator",
+    role:"Student",
   },
   {
-    id: 'world-12',
-    imgUrl: '12.png',
-    title: 'Hawkins Labs',
+    id: '3',
+    imgUrl: 'prof.png',
+    name:"Ajay",
+    designation:"Technical Co Ordinator",
+    role:"Student",
   },
   {
-    id: 'world-13',
-    imgUrl: '13.png',
-    title: 'Hawkins Labs',
-  },
-];
-
-export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
-];
-
-export const newFeatures = [
-  {
-    imgUrl: '/vrpano.svg',
-    title: 'A new world',
-    subtitle:
-        'we have the latest update with new world for you to try never mind',
-  },
-  {
-    imgUrl: '/headset.svg',
-    title: 'More realistic',
-    subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
-  },
-];
-
-export const insights = [
-  {
-    imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
-    subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
-  },
-  {
-    imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
-    subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
-  },
-  {
-    imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
-    subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
-  },
-];
-
-export const socials = [
-  {
-    name: 'twitter',
-    url: '/twitter.svg',
-  },
-  {
-    name: 'linkedin',
-    url: '/linkedin.svg',
-  },
-  {
-    name: 'instagram',
-    url: '/instagram.svg',
-  },
-  {
-    name: 'facebook',
-    url: '/facebook.svg',
+    id: '3',
+    imgUrl: 'prof.png',
+    name:"Ajay",
+    designation:"Technical Co Ordinator",
+    role:"Student",
   },
 ];

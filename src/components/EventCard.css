@@ -1,71 +1,75 @@
-.card2{
+/* Styles for the EventCard component */
 
-    color:white;
+.card2 {
+    color: white;
     display: flex;
-    justify-content:flex-end;
-    align-items:flex-start;
+    justify-content: flex-start; /* Adjusted alignment for better readability */
+    align-items: flex-start;
     flex-direction: column;
-    /* background: #0f20278f; */
-    /* backdrop-filter: blur(6px); */
     padding: 10%;
-    /* background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);  */
     position: absolute;
-    /* opacity: 0.8; */
-    border-radius: 6px;
-    /* top: 0; */
-    height: 100%;
+    border-radius: 10px; /* Increased border-radius for smoother edges */
     width: 100%;
     right: 0;
     left: 0;
-    bottom:-100%;
+    bottom: -100%;
     transition: 0.8s;
-    /* z-index: -1; */
 }
-.outercard:hover .card2{
-    /* z-index: 1; */
+
+.outercard{
+    overflow: hidden;
+}
+
+.outercard:hover .card2 {
     bottom: 0;
 }
 
-.outercard:hover .card1{
-    /* z-index: 1; */
-    /* bottom: 0; */
+.outercard:hover .card1 {
     filter: blur(6px);
     backdrop-filter: blur(6px);
 }
 
-
-.title{
-    /* font-size: larger; */
-    /* font-size: larger; */
-    font-size: min(24px, 2vw);
+.title {
+    font-size: min(24px, 3vw); /* Increased font size for better readability */
     font-weight: bold;
-    
+    margin-bottom: 10px; /* Added margin for spacing */
 }
 
-.card2 p{
-
-    /* max-width: 60%; */
-
-}
-.outercard{
-    border-radius: 6px;
-    overflow: hidden;
-    font-size: min(14px, 2vw);
-    /* font-size: min(20px, 2.4vw); */
-}
-
-.card1{
+.card1 {
     transition: 0.8s;
+    border-radius: 10px; /* Matched border-radius with card2 for consistency */
 }
 
-.button{
-    color: aliceblue;
+.button {
+    cursor: pointer;
+    color: white; /* Changed button text color to white for better contrast */
     align-self: flex-end;
-    background-color: rgba(0, 0, 0, 0.582);
-    padding:  min(7px, 0.8vw);
-    margin-top: 5px;
-    border-radius: min(0.4vw, 5px);
-    font-size: min(16px, 1.6vw);
+    background-color: rgba(0, 0, 0, 0.7); /* Adjusted button background color */
+    padding: min(12px, 1.5vw); /* Increased padding for better touch targets */
+    margin-top: 10px; /* Adjusted margin for spacing */
+    border-radius: 10px; /* Increased border-radius for smoother edges */
+    font-size: min(18px, 2.2vw);
     max-width: 40%;
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.9); /* Darker background color on hover */
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 830px) {
+    .title {
+        font-size: min(36px, 5vw); /* Increased font size for smaller screens */
+    }
+
+    .card1 {
+        border-radius: 10px; 
+    }
+
+    .button {
+        padding: min(14px, 1.7vw); 
+        font-size: min(22px, 2.4vw);
+        max-width: 50%;
+        border-radius: 4px;
+    }
 }

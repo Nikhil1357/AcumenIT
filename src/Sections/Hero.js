@@ -34,7 +34,7 @@ export default function Hero() {
         <img
           src="bg6.jpg"
           alt="hero_cover"
-          className="w-full h-[90vh]  object-bottom object-cover rounded-tl-[20vw] z-10 relative"
+          className="w-full h-[90vh] mt-4 object-bottom object-cover rounded-tl-[20vw] z-10 relative"
         />
     </motion.div>
     </motion.div>

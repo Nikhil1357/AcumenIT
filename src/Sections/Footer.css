@@ -1,0 +1,57 @@
+.footer {
+    background-color: #212529; /* bg-primary-black background color */
+    border-top: 1px solid #495057; /* Slightly lighter border color */
+    padding: 20px 0; /* Add some padding */
+  }
+  
+  .footer__separator {
+    height: 20px; /* Reduce the height for separation */
+  }
+  
+  .footer__content {
+    display: flex;
+    flex-wrap: wrap; /* Allow content to wrap on smaller screens */
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; /* Limit the maximum width */
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 0 20px; /* Add some padding */
+  }
+  
+  .footer__logo img {
+    width: 100px; /* Adjust the width as needed */
+  }
+  
+  .footer__social {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .footer__social a {
+    color: #adb5bd; /* Social icon color */
+    font-size: 20px; /* Adjust the font size */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  }
+  
+  .footer__social a:hover {
+    color: #fff; /* Change color on hover */
+  }
+  
+  .footer__address p {
+    margin: 5px 0;
+    font-size: 14px; /* Adjust the font size */
+    color: #868e96; /* Address text color */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .footer__content {
+      flex-direction: column; /* Stack content vertically on smaller screens */
+      text-align: center; /* Center-align content */
+    }
+  
+    .footer__social {
+      margin-top: 10px; /* Add some space between social icons and address */
+    }
+  }
+  

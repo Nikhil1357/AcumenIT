@@ -1,6 +1,6 @@
 .about h1{
 
-    font-size: 3vw;
+    font-size: max(26px,3vw);
     text-align: center;
     color: aliceblue;
     font-weight: 500;
@@ -12,7 +12,7 @@
     word-spacing: 0.2vw;
     padding-inline: 6vw;
     text-align: center;
-    font-size: min(20px,2vw);
+    font-size: min(20px,2.5vw);
     color: rgba(255, 255, 255, 0.76);
 
 }

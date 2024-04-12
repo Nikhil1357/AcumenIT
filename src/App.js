@@ -5,6 +5,7 @@ import Hero from './Sections/Hero';
 import About from './Sections/About';
 import Events from './Sections/Events';
 import TeamPage from './Sections/TeamPage';
+import Footer from './Sections/Footer';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <About />
       <Events/>
       <TeamPage/>
+      <Footer/>
     </div>
   );
 }

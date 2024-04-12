@@ -7,7 +7,7 @@ import styles from "../styles";
 import './TeamCard.css';
 
 
-const TeamCard = ({id, imgUrl, title, index, active, handleClick}) => (
+const TeamCard = ({id, imgUrl, name, designation, role}) => (
   <motion.div
 //   variants={fadeIn('left', 'spring', 0.5, index*0.5, 0.75)}
     className='people-card-outer'
@@ -20,8 +20,8 @@ const TeamCard = ({id, imgUrl, title, index, active, handleClick}) => (
         <div
         className='people-card-body'
         >
-        <h1>Abhiram Sreekar</h1>
-        <p>Technical Lead</p>
+        <h1>{name}</h1>
+        <p>{designation}</p>
         {/* <div
         className='social'
         >
